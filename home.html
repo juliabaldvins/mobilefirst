@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Homepage</title>
+</head>
+
+<header>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">
+      <div class="home">Home</div>
+    </a>
+    <a href="#">
+      <div class="info">Info</div>
+    </a>
+    <a href="#">
+      <div class="schedule">Schedule</div>
+    </a>
+    <a href="#">
+      <div class="message">Message</div>
+    </a>
+    <a href="#">
+      <div class="documents">Documents</div>
+    </a>
+    <a href="#">
+      <div class="settings">Settings</div>
+    </a>
+    <a href="#">
+      <div class="logout">Logout</div>
+    </a>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+  <div class="logo"><a href="https://kea.dk/"><img src="img/logokea.svg" alt="keawebsite"></a>
+  </div>
+</header>
+
+<body id="color">
+
+  <div class="grid-container">
+    <div class="item1"><img src="img/info.png" alt="info"></div>
+    <div class="item2"><img src="img/schedule.png"></div>
+    <div class="item3"><img src="img/message.png"></div>
+    <div class="item4"><img src="img/folder.png"></div>
+  </div>
+
+
+  <div id="buttons">
+    <button type="submit" class="button">Logout</button>
+  </div>
+
+  <script src="js/home.js"></script>
+</body>
+
+</html>
